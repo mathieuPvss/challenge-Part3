@@ -24,6 +24,10 @@
                 </a>                    
             </ul>
         </div>
+        <form action="{{ route('products.search') }}">
+            <input type="text" name="q">
+            <button type="submit">Rechercher</button> 
+        </form>
         <div class="Espace">
             <div class="Espace">
                 <span class="Espace" dir="auto">Produit, Humain, Institutionelle, Format</span>
